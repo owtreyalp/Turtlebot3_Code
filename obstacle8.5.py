@@ -100,9 +100,5 @@ if __name__ == '__main__':
                         pub.publish(twist)
 
 
-
-
-        #rospy.spin()
-
     except rospy.ROSInterruptException:
             pass
